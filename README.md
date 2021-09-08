@@ -8,12 +8,16 @@
 
 <https://docs.unity3d.com/Packages/com.unity.package-manager-ui@2.0/manual/index.html>
 
+#### Install using Git url 
+1. Open Unity Package Manager 
+2. Past in the url `https://github.com/integraloftheday/A11YTK.git#v1.2.0` 
+
 #### Git
 
 ```json
 {
   "dependencies": {
-    "com.a11ytk.a11ytk": "https://github.com/a11ytk/a11ytk.git#v1.1.0",
+    "com.a11ytk.a11ytk": "https://github.com/integraloftheday/A11YTK.git#v1.2.1",
     ...
   }
 }
@@ -34,7 +38,7 @@ Install [TextMeshPro](https://docs.unity3d.com/Manual/com.unity.textmeshpro.html
 
 ## Quick Start
 
-Attach a `SubtitleAudioSourceController` or `SubtitleVideoPlayerController` component to any GameObject that has an `AudioSource` or `VideoPlayer` component respectively.
+Attach a `SubtitleAudioSourceController`,`SubtitleVideoPlayerController`, or `SubtitleTimelinePlayerController` component to any GameObject that has an `AudioSource`, `VideoPlayer`, or `PlayableDirective` component respectively.
 
 <img src="Screenshots/component.png" width="400">
 
@@ -44,7 +48,7 @@ Create a `Subtitle Options` asset via the create asset menu via `A11YTK > Subtit
 
 <img src="Screenshots/options.png" width="400">
 
-Drag the `Subtitle Options` asset into the `Subtitle Options` property of the `SubtitleAudioSourceController` or `SubtitleVideoPlayerController` component.
+Drag the `Subtitle Options` asset into the `Subtitle Options` property of the `SubtitleAudioSourceController`, `SubtitleVideoPlayerController`, or `SubtitleTimelinePlayerController` component.
 
 ## Documentation
 
